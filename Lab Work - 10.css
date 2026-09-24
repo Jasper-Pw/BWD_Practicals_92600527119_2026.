@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Syle the navigation menu*/
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(50, 77, 116);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* Navigation links */
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover:{
+    background-color: rgb(38, 81, 201);
+}
+
+.navbar li{
+float: left;
+}
+
+/* Style the current/active link */
+.navbar a.active{
+    background-color: rgb(38, 81, 201);
+}
+

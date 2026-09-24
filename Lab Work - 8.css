@@ -1,0 +1,210 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+    overflow-y: hidden;
+    font-family: "Raleway", sans-serif;
+}
+
+div#main-content{
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    background-color: white;
+    border: 1px soilid #ccc;
+    margin: 0 auto;
+}
+
+header{
+    padding: 10px;
+    height: 60px;
+}
+
+header .logo img{
+    width: 50%;
+    align-items: center;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ion-icons{
+    font-size: 25px;
+}
+
+.actions{
+    gap: 20px;
+}
+
+[class^="avatar"]{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.avatar-lg{
+    width: 45px;
+    height: 45px;
+}
+
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    height: 60px;
+}
+
+#scrollbox{
+    height: calc(100vh - 60px - 20px - 60px);
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#scrollbox::-webkit-scrollbar{
+display: none;/* Hide scrollbar for Chrome, Safari and Opera*/
+}
+
+#stories{
+    height: 90px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    border-bottom: 1px solid #eee;
+}
+
+#stories:-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.story{
+    text-align: center;
+    width: 80px;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+}
+
+.story p{
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.story .img-wrapper{
+    border: 1px solid red;
+    background: linear-gradient(to right, orange, red);
+    margin: 0 auto;
+    padding: 2.5px;
+}
+
+.story .img-wrapper img{
+    border: 1.5px solid white;
+}
+
+.add-to-story ion-icon{
+    color: #1877F2; /* rich blue*/
+    font-size: 19px;
+}
+
+.add-to-story{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    background: white;
+    border-radius: 50%;
+}
+
+.post-header{
+    padding: 15px
+}
+
+.post-header b{
+padding-left: 10px;
+}
+
+b{
+    cursor: pointer;
+}
+
+.post-body img, .post-body video{
+    max-width: 100%;
+}
+
+.big-add{
+    font-size: 25px;
+}
+.big-heart{
+    font-size: 25px;
+}
+
+.big-chat{
+    font-size: 25px;
+}
+
+.big-compare{
+    font-size: 25px;
+}
+
+.big-plane{
+    font-size: 25px;
+}
+
+.big-bookmark{
+    font-size: 25px;
+}
+
+.big-home{
+    font-size: 27px;
+}
+
+.big-play{
+    font-size: 27px;
+}
+
+.big-search{
+    font-size: 27px;
+}
+
+.post-actions{
+    padding: 10px;
+}
+
+.red{
+    color: red;
+}
+
+.caption-etc{
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.caption-etc p{
+    margin: 4px 0;
+}
+
+.hashtag{
+    color: #1877F2; /* rich blue*/
+}
+
+.light-text{
+    color: #aaa;
+}
+
+.avatar-sm{
+    height: 20px;
+    width: 20px;
+}
+
+.post{
+    margin-bottom: 20px;
+}
